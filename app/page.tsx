@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect } from 'react';
 import { 
   Gamepad2, 
@@ -16,7 +18,6 @@ import {
   X
 } from 'lucide-react';
 
-"use client";
 // --- DATA (Senin verilerin) ---
 const DATA = {
   projects: [
