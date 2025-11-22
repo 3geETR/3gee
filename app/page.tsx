@@ -16,6 +16,7 @@ import {
   X
 } from 'lucide-react';
 
+"use client";
 // --- DATA (Senin verilerin) ---
 const DATA = {
   projects: [
