@@ -331,15 +331,7 @@ const Footer = () => {
 
 export default function App() {
   return (
-    <div className="bg-[#050505] min-h-screen text-gray-200 selection:bg-[#00E676] selection:text-black font-sans">
-      {/* Google Fonts Load */}
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
-        
-        body { font-family: 'Inter', sans-serif; }
-        .font-mono { font-family: 'JetBrains Mono', monospace; }
-      `}</style>
-
+    <div>
       <ScanlineOverlay />
       <Navbar />
       <Hero />

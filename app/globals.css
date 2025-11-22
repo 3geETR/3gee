@@ -4,7 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Opsiyonel: Eğer fontları page.tsx'ten kaldırdıysanız buraya taşıyın */
-/*
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
-*/
+::selection {
+  background-color: #00e676;
+  color: black;
+}
+
+@layer base {
+  body {
+    @apply bg-[#050505] text-gray-200;
+  }
+}
